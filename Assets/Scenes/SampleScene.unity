@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 2618288}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 670843941}
   m_Layer: 7
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2193,6 +2193,10 @@ PrefabInstance:
     - target: {fileID: 1216405947858585701, guid: be1fd6d075bd68e4ca5dc0c07bc2db26, type: 3}
       propertyPath: m_Name
       value: Gutter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216405947858585701, guid: be1fd6d075bd68e4ca5dc0c07bc2db26, type: 3}
+      propertyPath: m_TagString
+      value: Ball
       objectReference: {fileID: 0}
     - target: {fileID: 8575705794559704521, guid: be1fd6d075bd68e4ca5dc0c07bc2db26, type: 3}
       propertyPath: m_LocalPosition.x
